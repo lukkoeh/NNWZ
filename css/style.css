@@ -183,3 +183,34 @@ button { width: 32.5%; padding: 8px 15px 8px 15px; border: none; font-weight: 70
 .linkist a:hover { color: #555; transition: all .2s; }
 
 .author img:hover { filter: brightness(80%); }
+
+/* Mobile / Low width layout */
+
+@media screen and (max-width: 768px) {
+  
+  /* Mobile Navbar */
+
+  .container { width: 100%; }
+
+  .navbarbox h5 { display: none; }
+
+  .navbarbox ul { width: 100%; }
+
+  .navbarbox li .logo { width: 35%; margin-left: 10px; }
+
+  .social { left: 30% !important; }
+
+  .navbarbox li img { width: 9%; }
+
+  /* Navbar responsive */
+
+  .navbar ul {
+    display: none;
+  }
+
+
+  /* article move reverse...*/
+
+  .articlebox { margin-top: 0; width: 100%; padding: 10px;}
+
+}
