@@ -208,9 +208,50 @@ button { width: 32.5%; padding: 8px 15px 8px 15px; border: none; font-weight: 70
     display: none;
   }
 
-
   /* article move reverse...*/
 
   .articlebox { margin-top: 0; width: 100%; padding: 10px;}
+
+  /* Bread fix */
+
+  .bread { padding: 10px; }
+
+  /* Author fix */
+
+  aside.profiletext a { font-size: 22px; }
+
+  aside.profiletext p { font-size: 13px; }
+
+  /* Tags fix */
+
+  aside.words { width: 80% !important; }
+
+  aside.words h2 { font-size: 22px; margin-top: 5px;}
+
+  aside.words p { font-size: 13px; margin-top: 5px; }
+
+  /* Ads */
+
+  .ads { width: 100%; display: block; padding: 10px; }
+
+  .adbox-heading { width: 100%; }
+
+  .adbox:hover { transform: scale(1.05); transition: .1s !important; }
+
+  /* Footer fix */
+
+  .footer { width: 100%; margin-top: 10px !important;}
+
+  .footer img { width: 75%;  }
+
+  .linkist { width: 50%; }
+
+  .linkist li { display: block; margin: 10px !important; }
+
+  .linkist a { padding: 16px 18px; padding-left: 0 !important; }
+
+  .copyright { width: 50%;}
+
+  .copyright p { line-height: 1.5; }
 
 }
